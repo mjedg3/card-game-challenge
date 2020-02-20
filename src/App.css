@@ -3,4 +3,41 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* { flipped: false, image: Mavicair },
+      { flipped: false, image: Maviczoompro },
+      { flipped: false, image: Ronin },
+      { flipped: false, image: Phantom4 },
+      { flipped: false, image: Spark },
+      { flipped: false, image: Robomaster },
+      { flipped: false, image: Mavic2Pro },
+      { flipped: false, image: Osmopocket },
+      { flipped: false, image: Ronin },
+      { flipped: false, image: Mavic2Pro },
+      { flipped: false, image: Spark },
+      { flipped: false, image: Maviczoompro },
+      { flipped: false, image: Osmopocket },
+      { flipped: false, image: Robomaster },
+      { flipped: false, image: Phantom4 },
+      { flipped: false, image: Mavicair } */
+
+/* import Mavicair from "./images/mavicair.png";
+import Maviczoompro from "./images/maviczoompro.jpg";
+import Ronin from "./images/ronin.jpg";
+import Phantom4 from "./images/phantom4.jpg";
+import Spark from "./images/spark.jpg";
+import Robomaster from "./images/robomaster.jpg";
+import Mavic2Pro from "./images/mavic2pro.jpg";
+import Osmopocket from "./images/osmopocket.jpg"; */
