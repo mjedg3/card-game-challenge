@@ -6,7 +6,7 @@ import BabyMario from "./images/babymario.jpg";
 
 class App extends Component {
   state = {
-    message: "match the cards to win the game",
+    message: "match the cards to win the game test",
     cards: [
       { flipped: false, image: Bowser },
       { flipped: false, image: BabyMario },
@@ -58,7 +58,14 @@ class App extends Component {
     return (
       <div className="board">
         {this.state.cards.map((card, index) => {
-          return <Card key={index} image={card.image} flipped={card.flipped} click={() => this.flipHandler(index)} />;
+          return (
+            <Card
+              key={index}
+              image={card.image}
+              flipped={card.flipped}
+              click={() => this.flipHandler(index)}
+            />
+          );
         })}
         <p>{this.state.message}</p>
       </div>
